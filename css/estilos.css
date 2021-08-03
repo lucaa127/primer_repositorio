@@ -31,7 +31,7 @@ nav ul{background-color: orange;
 ul li a{color:darkred;
 list-style: none;}
 
-section{background-color: lightgray;}
+section{background-color: lightgray;background-color: orange;}
 section ol{margin-left: 40px; list-style-type: upper-roman;}
 section form{margin-left: 20px;}
 
