@@ -1,0 +1,79 @@
+*{  margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* etiquetas */
+body{background-color: lightgoldenrodyellow;}
+
+table th{background-color: lightpink; padding: 10px;}
+table tr{text-align: center;}
+table {background-color: lightyellow;}
+
+ol{margin-left: 15px;}
+
+h2{color: brown;}
+h3{color: darkslateblue;}
+
+p{color:lightslategray}
+
+form{color:darkblue;}
+
+nav li{float: left;
+       padding: 5px;
+    list-style: none;}
+nav ul{background-color: orange;
+    width: 100%;
+    float: left;}
+
+ul li a{color:darkred;
+list-style: none;}
+
+section{background-color: lightgray;}
+section ol{margin-left: 40px; list-style-type: upper-roman;}
+section form{margin-left: 20px;}
+
+span{font-weight: bolder;}
+
+footer{background-image: url(/img/footertemp.jpg);
+       height: 150px;
+       text-align: center;
+       line-height: 250px;
+}
+
+/* clases */
+
+.navMenu {background-color: orange;}
+
+.tdImg1{background-image:url(/img/sh.jpg);
+        background-size:contain;
+        width: 150px;
+        height: 80px;}
+.tdImg2{background-image:url(/img/sh.jpg);
+        background-size: 100%;
+        width: 150px;
+        height: 80px;}
+.tdImg3{background-image:url(/img/sh.jpg);
+        background-size: cover;
+        width: 150px;
+        height: 80px;}
+
+.botonForm{background-color: orangered;color: darkred;
+           width: 60px;}
+
+.logo{padding: 20px;
+    margin: 0;
+    border: solid 1px;
+    width: 100%;
+    background-image:url(/img/logotemp.jpg);
+    background-size: cover;
+    color:white;}
+
+.tutorialSpan{float: left;
+              font:1em;
+              text-transform: uppercase;
+              color:000;
+              }
+

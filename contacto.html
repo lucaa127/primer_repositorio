@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+        <!--css-->
+        <link rel="stylesheet" href="css/estilos.css">
+        <!--Fuente google fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    </head>
+</head>
+<body>
+    <header>
+        <div class="logo">LOGO</div>
+          
+            <nav class="navMenu">
+                <!--MENU-->
+                <ul>
+                <li> <a href="index.html">HOME</a> </li>
+                <li> <a href="comics.html">COMICS</a></li>
+                <li> <a href="creadores.html">CREADORES</a></li>
+                <li> <a href="contacto.html">CONTACTO</a></li>
+                </ul>
+            </nav>
+  
+      </header>
+      <section>
+      <br><br>
+      <h3>CONTÁCTANOS</h3><br>
+      <form>
+          <label for="nombre">Nombre</label>
+          <input type="text" name="nombre">
+          
+          <br><br>
+
+          <label for="email">Email</label>
+          <input type="email" name="email">
+
+          <br><br>
+          
+          <label for="user">Eres?:</label>
+          <select name="user">
+              <option name= "r" selected>Lector</option>
+              <option name= "c">Creador</option>
+          </select>
+          <br><br>
+
+  
+          <label for="comentarios">Comentarios:</label>
+          <br><br>
+          <textarea name="consulta" rows="10" cols="30" placeholder="Escriba aquí su consulta o motivo de contacto."></textarea>
+          <br><br>
+          <label for="news">Suscríbete para recibir todas las novedades</label>
+            <input type="checkbox" name="news">
+                        <br><br>
+          <input class="botonForm" type="submit" value="Enviar">
+          <input type="reset" value="Borrar">
+      </form>
+
+      <br>
+      <hr>
+    </section>
+      <footer><span>&copy; 2021</span></footer>
+</body>
+</html>
